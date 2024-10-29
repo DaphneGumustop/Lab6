@@ -1,0 +1,18 @@
+.static-box{position: static; background-color:coral; height: 100px; width: 100px;}
+.relative-box{position: relative; bottom: 30px ; right: 30px ; background-color: cornflowerblue; height: 100px; width: 100px;}
+.absolute-box{position: absolute; top: 10px ; left: 15px; background-color: blueviolet; height: 100px; width: 100px;}
+.fixed-box{position: fixed; bottom: 10px; right: 10px; height: 100px; width: 100px; background-color: bisque;}
+.sticky-box{position: sticky; top: 0px; background-color: brown; height: 100px; width: 100px;}
+.background-image{height: 200px ; width: 200px; background-size: cover;background-image: url(https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg);}
+.background-image-repeat{height: 500px ;width: 500px;background-repeat: repeat-x;background-image: url( "https://img.freepik.com/free-photo/photorealistic-view-tree-nature-with-branches-trunk_23-2151478039.jpg");}
+.box1{z-index: 1; background-color: blue; height: 50px ;width: 50px; position: absolute;}
+.box2{z-index: 2; background-color: silver; height: 50px ;width: 50px; position: absolute;}
+.flex-container {display: flex;flex-direction: row;gap: 10px;background-color: honeydew;}
+.flex-child {width: 100px;height: 100px;background-color: lightgreen;}
+.flex-container-column{display: flex; flex-direction: column;}
+.flex-container-space-evenly{ display: flex; justify-content: space-evenly;}
+.flex-container-wrap{ display: flex; flex-wrap: wrap;}
+.flex-container-align-center{display: flex; align-items: center; height: 100px;}
+.flex-container-align-content{display: flex; flex-wrap: wrap; align-content: space-evenly; height: 500px;}
+.flex-container-flex-grow {display: flex;}
+  
